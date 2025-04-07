@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+ Student Name: Sam Santhosh
+ File Name: contact.html
+ Date: 26/01/2025
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Grinders - Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/coffee-icon.png" type="image/png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><span class="tab-desk">☕</span> Coffee Grinders <span class="tab-desk">☕</span></h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Faqs.html">FAQs</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="media.html">media</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="contact" class="tab-desk">
+            <h2>Contact us for premium coffee grinding solutions</h2>
+            <p class="tel-link mobile">
+                <a href="tel:(814) 555-9228">(814) 555-9228</a>
+            </p>
+            <p>Email: <a href="mailto:contact@coffeegrinders.net" class="email-link">contact@coffeegrinders.net</a></p>
+            <p>Visit us at: 123 Bean Street, Seattle, WA 98101</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.416646571!2d-122.4821465489255!3d47.61294318323458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA%2C%20USA!5e0!3m2!1sen!2sca!4v1737922134567!5m2!1sen!2sca" 
+            width="600" height="450" class="map" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="form">
+            <h2>Request more information about our coffee grinders</h2>
+            <form class="form-grid">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" required>
+                    
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Product Interest</legend>
+                    <p>I'm interested in:</p>
+                    <label for="burr"><input type="checkbox" name="interest" id="burr" value="Burr Grinders">Burr Grinders</label>
+                    <label for="blade"><input type="checkbox" name="interest" id="blade" value="Blade Grinders">Blade Grinders</label>
+                    <label for="beans"><input type="checkbox" name="interest" id="beans" value="Coffee Beans">Premium Beans</label>
+                    <label for="accessories"><input type="checkbox" name="interest" id="accessories" value="Accessories">Grinder Accessories</label>
+                </fieldset>
+
+                <button type="submit" id="submit" class="btn">Brew My Request</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024. Coffee Grinders. All Rights Reserved.</p>
+        <p><a href="mailto:info@coffeegrinders.net">info@coffeegrinders.net</a></p>
+    </footer>
+</body>
+</html>
